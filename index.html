@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predy Protocol</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+  <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: '#1b1f26',
+            'background-header': '#1b1f26b3',
+            'secondaly': '#2E3239'
+          },
+          backgroundImage: {
+            'whangaehu-pattern': "url('/img/whangaehu.svg')"
+          }
+        }
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif']
+      }
+    }
+  </script>
+  <style>
+    html {
+      font-family: 'Poppins', sans-serif;
+      line-height: 20px;
+    }
+
+    .final-gradient {
+      background: linear-gradient(97.69deg, #1D85FF -2.6%, #8525FF 95.54%);
+    }
+
+    .secodaly-gradient {
+      background: linear-gradient(180deg, #2E323980 0%, #2E323960 100%);
+    }
+  </style>
+</head>
+
+<body class="bg-background bg-whangaehu-pattern text-white font-['Poppins']">
+  <header class="bg-background-header">
+    <div class="sm:w-[640px] md:w-[768px] lg:w-[1080px] mx-auto flex items-center justify-between px-10 py-4">
+      <div>
+        <img src="/img/logo.svg" />
+      </div>
+      <div class="flex items-center justify-center space-x-1 md:space-x-5">
+        <div class="px-2">
+          <div class="test-sm">Doc</div>
+          <span class="relative block h-[2px] w-[52px] md:w-[73px] final-gradient -translate-x-[10px] md:-translate-x-[22px] top-[21px] transition
+            ease-in-out"></span>
+        </div>
+        <div class="flex items-center justify-center space-x-5">
+          <img src="/img/twitter_icon.svg" />
+          <img src="/img/github_icon.svg" />
+          <img src="/img/discord_icon.svg" />
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+  <div class="bg-gradient-to-t from-background h-full">
+    <div class="sm:w-[640px] md:w-[768px] lg:w-[1080px] mx-auto px-10">
+      <div class="mt-24 mb-10">
+        <div class="flex items-center justify-center">
+          <div class="w-[737px] text-center text-2xl md:text-6xl font-semibold leading-[50px] md:leading-[70px]">
+            <h1>
+              TRADE DERIVATIVE ON VAULT! PRACTICAL<br>AND INSTANT
+            </h1>
+          </div>
+        </div>
+        <div class="mt-10 flex items-center justify-center">
+          <button class="w-[220px] h-[50px] rounded-lg final-gradient px-4 py-2 text-sm font-semibold">
+            Launch App
+          </button>
+        </div>
+
+      </div>
+
+      <div
+        class="mt-16 mb-10 flex flex-wrap items-center justify-center md:justify-between space-x-0 space-y-4 lg:space-y-0 text-xl font-medium">
+        <div class="rounded-lg w-[240px] h-[230px] text-center secodaly-gradient flex items-center justify-center">
+          <div>
+            <div class="flex items-center justify-center h-32">
+              <img class="w-[100px]" src="/img/20x.png" />
+            </div>
+            <div>
+              Leverage
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg w-[240px] h-[230px] text-center secodaly-gradient flex items-center justify-center">
+          <div>
+            <div class="flex items-center justify-center h-32">
+              <img class="h-[100px]" src="/img/usdc-logo.png" />
+            </div>
+            <div>
+              Collateral
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg w-[240px] h-[230px] text-center secodaly-gradient flex items-center justify-center">
+          <div>
+            <div class="flex items-center justify-center h-32">
+              <img class="h-[100px]" src="/img/products.png" />
+            </div>
+            <div>
+              Product
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg w-[240px] h-[230px] text-center secodaly-gradient flex items-center justify-center">
+          <div>
+            <div class="flex items-center justify-center h-32">
+              <img class="h-[100px]" src="/img/arbitrum_logo.png" />
+            </div>
+            <div>
+              Network
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="mt-8 flex items-center justify-center">
+          <div class="text-[22px]">Our Sponsors</div>
+        </div>
+        <div class="flex items-center justify-center">
+          <div>A</div>
+          <div>B</div>
+          <div>C</div>
+          <div>D</div>
+          <div>E</div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
